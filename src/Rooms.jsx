@@ -7,6 +7,7 @@ import axios from "axios";
 import { useNavigate } from "react-router-dom";
 
 const API = "http://localhost:5000";
+const API = "https://hotel-management-backend-kkyl.vercel.app";
 
 const Rooms = () => {
   const [rooms, setRooms] = useState([]);
